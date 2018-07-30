@@ -21,7 +21,7 @@ $("#submit").click(function(){
     var email = $("#email").val()
 
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("xml","https://europe4.fivecrm.com/123456/index.php?mode=import&hash=<5bfd194daaaf9be8f691a5c91fd93c93>");
+    xmlhttp.open("xml","https://europe7.fivecrm.com/509399/api.php?mode=import&hash=<5bfd194daaaf9be8f691a5c91fd93c93>");
 
     var xmlDoc;
 
@@ -36,7 +36,7 @@ $("#submit").click(function(){
         };
     };
         
-    var xml = '<?xml version="1.0"?><frame name="mainFrame" src="https://europe4.fivecrm.com/123456/index.php"><head></head><importdata><area>007</area><data><notify>connor.willoughby@callthemarket.com</notify><account><field table="TELRCM" field="COMPANY">API Submission</field></account><company><field table="CONT" field="EMAIL">'+(email)+'</field></company></data></area></importdata></frame>';
+    var xml = '<?xml version="1.0"?><frame name="mainFrame" src="https://europe7.fivecrm.com/509399/api.php"><head></head><importdata><area>007</area><data><notify>connor.willoughby@callthemarket.com</notify><account><field table="TELRCM" field="COMPANY">API Submission</field></account><company><field table="CONT" field="EMAIL">'+(email)+'</field></company></data></area></importdata></frame>';
     xmlhttp.send(xml);     
    
     console.log(email);
