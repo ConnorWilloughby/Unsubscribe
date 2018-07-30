@@ -16,12 +16,12 @@ $(document).ready(function(){
 });
 
 
-$("#Submit").click(function(){
+$("#submit").click(function(){
 
     var email = $("#email").val()
 
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("XMLHTTP","https://europe4.fivecrm.com/123456/index.php?mode=import&hash=<5bfd194daaaf9be8f691a5c91fd93c93>");
+    xmlhttp.open("xml","https://europe4.fivecrm.com/123456/index.php?mode=import&hash=<5bfd194daaaf9be8f691a5c91fd93c93>");
 
     var xmlDoc;
 
