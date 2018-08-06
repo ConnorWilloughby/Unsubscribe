@@ -1,5 +1,31 @@
 
-#Unsubscribe {
-    padding-top: 100px;
+#unsubscribe {
+    padding-top: 25px;
+}
 
+#unsubscribe input {
+    margin: auto;
+    display: inline-block;
+}
+
+body .ma {
+    margin: auto;
+}
+
+nav .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body nav {
+    background-color: #f00;
+}
+
+body #unsubscribe {
+    margin-top: 150px
+}
+
+body #unsubscribe .g-recaptcha {
+    margin-left: auto;
+    margin-right: auto;
 }
