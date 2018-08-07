@@ -1,0 +1,65 @@
+
+
+
+hr {
+    width: 75%;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+/* rename me */
+.MAX { 
+    height: 100%;
+    width: 100%;
+    
+    position: fixed;
+    
+    top: 30%;
+    
+    padding: 0% 5%; 
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+    
+    display: block;
+    
+    position: fixed;
+    top: 0px;
+    left:0px;
+}
+
+.full::after {
+    content: "";
+    background-image: url("http://ec2-18-130-227-216.eu-west-2.compute.amazonaws.com/img/bgnd.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.275;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+.inline {
+    display: inline;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.vertical-align-center {
+    display: flex;
+    align-items: center;
+}
+
+/* .spacer { 
+    height: 20%;
+    top: 20%;
+} */

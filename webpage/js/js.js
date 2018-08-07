@@ -3,7 +3,7 @@ var width = window.innerWidth
 var height = window.innerHeight
 var email = ""
 
-var version = "2.1.2"
+var version = "2.2.1"
 var versionName = "Intresting Name"
 
 
