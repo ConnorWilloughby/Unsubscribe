@@ -2,8 +2,8 @@
 var width = window.innerWidth
 var height = window.innerHeight
 
-var version = "2.4.1"
-var versionName = "Someone is actually intrested in this page now."
+var version = "2.4.2"
+var versionName = "Reg Labs Live"
 
 
 $(document).ready(function(){
