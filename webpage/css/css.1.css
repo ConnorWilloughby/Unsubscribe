@@ -9,6 +9,10 @@ p {
     font-size: 1.1em;
 }
 
+body {
+    background-color: darkslategrey;
+}
+
 /* rename me */
 .MAX { 
     height: 100%;
@@ -32,18 +36,31 @@ p {
     left:0px;
 }
 
-.full::after {
+.bg {
+    display: block;
+    
+    height: 100%;
+    width: 100%;
+
+    position: fixed;
+    top: 0px;
+    left:0px;
+    
+    z-index: -100;   
+}
+
+.bg::after {
     content: "";
     background-image: url("http://ec2-18-130-227-216.eu-west-2.compute.amazonaws.com/img/bgnd.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.275;
+    background-position: bottom;
+    opacity: 0.6;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;   
+    z-index: -100;   
 }
 
 .inline {
@@ -57,6 +74,47 @@ p {
 .vertical-align-center {
     display: flex;
     align-items: center;
+}
+
+#welcome {
+    margin-top: 9%;
+    /* background-color: white; */
+}
+
+
+#welcome .card {
+    padding: 10px;
+
+    /* display: flex; */
+
+    /* width: 100%; */
+
+    -webkit-box-shadow: 5px 5px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 3px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.75);
+    
+}
+
+#welcome h2 {
+    font-size: 3.75rem;
+}
+
+#welcome hr {
+    margin: auto;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+}
+
+#footer footer a {
+    text-align: center;
+}
+
+nav .navbar {
+    -webkit-box-shadow: 5px 5px 3px - rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 3px - rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.75);
+
+    z-index: 10;
 }
 
 /* .spacer { 
