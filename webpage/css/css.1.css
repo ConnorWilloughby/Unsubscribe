@@ -1,6 +1,4 @@
 
-
-
 hr {
     width: 75%;
 }
@@ -36,9 +34,12 @@ body {
     left:0px;
 }
 
+html body {
+    background-color: #3a3838;
+}
+
 .bg {
-    display: block;
-    
+    display: block;    
     height: 100%;
     width: 100%;
 
@@ -81,18 +82,19 @@ body {
     /* background-color: white; */
 }
 
+.ma {
+    margin: auto !important;
+}
 
 #welcome .card {
-    padding: 10px;
+    padding: 17.5px;
 
     /* display: flex; */
-
     /* width: 100%; */
 
     -webkit-box-shadow: 5px 5px 3px rgba(0,0,0,0.75);
     -moz-box-shadow: 5px 5px 3px rgba(0,0,0,0.75);
-    box-shadow: 5px 5px 3px rgba(0,0,0,0.75);
-    
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.75);    
 }
 
 #welcome h2 {
@@ -103,6 +105,17 @@ body {
     margin: auto;
     margin-top: 12.5px;
     margin-bottom: 12.5px;
+}
+
+#welcome .container .row {
+    color: #ece0e0;
+}
+
+#welcome .container .row  hr {    
+    background-color: #cfcbcb;
+
+    margin-top: 20px;
+    margin-bottom: 35px;
 }
 
 #footer footer a {
