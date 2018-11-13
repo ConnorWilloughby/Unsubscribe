@@ -2,9 +2,9 @@
 var width = window.innerWidth
 var height = window.innerHeight
 
-var version = "1.0.1"
+var version = "1.0.2"
 var versionName = "ctm.reglabs (Live)"
-var versionDesc = "Unsub from the site"
+var versionDesc = "Fixed 1"
 
 
 $(document).ready(function(){
@@ -15,11 +15,9 @@ $(document).ready(function(){
 
 });
 
-
 function regUnsub() {
     window.location.assign("https://ctm.thereglabs.com/Admin/RegUnsub.html");
 }
-
 
 function b2bUnsub() {
     window.location.assign("https://ctm.thereglabs.com/Admin/B2B_Unsub.html");
