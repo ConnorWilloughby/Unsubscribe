@@ -1,0 +1,64 @@
+
+body .navbar-brand img {
+    margin-left: 35%;
+     
+}
+
+#unsubscribe {
+    padding-top: 25px;
+}
+
+#unsubscribe input {
+    margin: auto;
+    display: inline-block;
+}
+
+body .ma {
+    margin: auto;
+}
+
+
+body .bg-r h1,
+body .bg-b h1
+ {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 60px;
+
+    text-align: center;
+}
+
+body #unsubscribe {
+    margin-top: 70px
+}
+
+body #unsubscribe .col-12 {
+    text-align: center;
+}
+
+body #unsubscribe .g-recaptcha {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body footer {
+    display: inline-block;
+    position: absolute;
+
+    width: 100%;
+    bottom: 0px;
+}
+
+body .button {
+    margin-top: 150px;
+}
+
+body .button .button {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+body .button img {
+    padding-left: 25px;
+}

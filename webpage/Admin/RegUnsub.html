@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!--- Meta Shit -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content=""> 
+
+    <!--- Bootstrap 4.0.0 ||| CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--- Main CSS ||| css.css -->
+    <link href="./css/css.css" rel="stylesheet">      
+
+    <!--- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+    <!-- Title -->
+    <title>The Register Unsubscribe</title>
+  
+ 
+    <!--- Bootstrap 4.0.0 ||| JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" ></script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.js"
+    integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+    crossorigin="anonymous"></script>
+    
+    <!-- Local JS -->
+    <script src="./js/js.js" type="text/javascript"></script>
+</head>
+
+<body id="body">   
+    
+    <!-- Nav Bar -->
+    <section class="bg-r" style="background-color: #f00 !important;">
+
+            <div class="row">
+    
+                <div class="col-6 ma">
+                    <h1 style="color:white">CTM: Admin</h1>
+                </div>
+        
+                
+                <div class="col-6 ma">
+        
+                    <a class="navbar-brand">
+                        <img src="https://theregister.co.uk/design_picker/c00f80f04b0eaf0123d821f6c9488fc1cb55fd0a/graphics/icons/reg_logo.svg" width="330" height="63" alt="The Register® — Biting the hand that feeds IT">
+                    </a>
+                    
+                </div>
+            
+            </div>
+    
+    </section>
+
+    <section id="unsubscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">                            
+
+                    <h1>Unsubscribe From The Register</h1>
+                    
+                        <hr>
+
+                    <p>
+                        Please enter an email address and the hit "Submit"
+                    </p>
+
+                    <br><br><br>
+
+
+                    <div class="row">
+                        <div class="col-8 ma">
+                            <form action="https://europe7.fivecrm.com/509399/webFormSubmit.php" method="post" name="myform" id="myform" enctype="multipart/form-data">
+                                <input type="hidden" name="FORMNAME" value="ADMIN: Reg Unsub">
+                                <input type="hidden" name="AREA" value="003">
+                                <input type="hidden" name="OWNER-TELRCM" value="">                        
+                                <input type="hidden" name="CUSTOMERSTATUS-TELRCM" value="">
+                                <input type="hidden" name="REDIRECT" value="https://ctm.thereglabs.com/Submitted.html">
+                                <input type="hidden" name="NOTIFY" value="ctm@sitpub.com">
+                                <input type="hidden" name="PROJECT-TELRCM" value="">
+                                <input type="hidden" name="privacyDetailTemplate" value="">
+                                <input type="hidden" name="updateOnField" value="">
+                                <input type="hidden" name="HASH" value="275cf71a757ac6b719a6e490fe504b6c">
+                                <input type="hidden" name="type" value="import">
+                                <input type="hidden" name="NEXTDATE-TELRCM" value="2018-08-01 01:00:00">
+                                
+                                <table>
+                                    <tbody>
+
+                                        <tr style="display:none;">
+                                            <td>Contact name</td>
+                                            <td><input type="text" name="CONTACT-CONT" id="CONTACT" value="ADMIN: Reg Unsub"></td>
+                                            <td><input type="text" name="COMPANY-TELRCM" id="EMAIL1" value="ADMIN: Reg Unsub"></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td style="padding-right:25px;"><h5>Email Address:</h5></td>
+                                            <td><input style="width:400px;" type="email" name="EMAIL-CONT" id="EMAIL"></td>
+                                            <td style="padding-left:25px;"><input type="submit" name="wform" value="SUBMIT" class="btn btn-primary button"></td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>                                  
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>  
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="button">
+        <div class="section">
+            <div class="row">
+
+                <button id="button" class="btn button btn-primary" onclick='regSubmit()'>
+                    Unsub from  
+
+                <img src="./img/B2BMG_Logo.png" width="25%" height="25%">
+
+                </button>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Built By Connor Willoughby https://vibrant-technology.co.uk -->
+
+</html>
