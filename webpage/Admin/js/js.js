@@ -2,9 +2,9 @@
 var width = window.innerWidth
 var height = window.innerHeight
 
-var version = "1.0.2"
+var version = "1.1.1"
 var versionName = "ctm.reglabs (Live)"
-var versionDesc = "Fixed 1"
+var versionDesc = "Updated to fix redirect"
 
 
 $(document).ready(function(){
