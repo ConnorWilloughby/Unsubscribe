@@ -2,9 +2,9 @@
 var width = window.innerWidth
 var height = window.innerHeight
 
-var version = "1.1.1"
+var version = "1.1.2"
 var versionName = "ctm.reglabs (Live)"
-var versionDesc = "Updated to fix redirect"
+var versionDesc = "Changed webforms, jack is on B2B email notification."
 
 
 $(document).ready(function(){
