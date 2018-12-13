@@ -17,7 +17,7 @@ $(document).ready(function () {
    
     (function () {
 
-        var emailURL = str.replace("ctm.thereglabs.com/Home/Submit/", window.location.href);
+        var emailURL = str.replace("unsub.thereglabs.com/Home/Submit/", window.location.href);
 
         if (response = '{"error":"invalid_email"}') { 
             document.getElementById("response-text2").style.color = "#FF0000";
@@ -41,7 +41,7 @@ $(document).keypress(function () {
 
     var emailFrm = $("#EMAIL").val();
 
-    $('#redirect').attr('value', "ctm.thereglabs.com/Home/Submit/" + emailFrm);
+    $('#redirect').attr('value', "unsub.thereglabs.com/Home/Submit/" + emailFrm);
 
 });
 
@@ -49,7 +49,7 @@ $(document).keydown(function () {
 
     var emailFrm = $("#EMAIL").val();
 
-    $('#redirect').attr('value', "ctm.thereglabs.com/Home/Submit/" + emailFrm);
+    $('#redirect').attr('value', "unsub.thereglabs.com/Home/Submit/" + emailFrm);
 
 });
 
@@ -58,7 +58,7 @@ $(document).mousemove(function () {
 
     var emailFrm = $("#EMAIL").val();
 
-    $('#redirect').attr('value', "ctm.thereglabs.com/Home/Submit/" + emailFrm);
+    $('#redirect').attr('value', "unsub.thereglabs.com/Home/Submit/" + emailFrm);
 
 });
 
